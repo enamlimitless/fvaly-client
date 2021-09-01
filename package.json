@@ -58,7 +58,7 @@
     "standardx": "3.0.0"
   },
   "lint-staged": {
-    "*{.tsx, .ts}": "eslint --cache --fix",
+    "*{.tsx, .ts}": "npx eslint '**/*{.ts,.tsx}' --fix",
     "*.{ts,tsx,css,md}": "prettier --write"
   }
 }
