@@ -1,0 +1,17 @@
+.nomatch {
+  background: #f8eb38;
+  height: 100vh;
+  text-align: center;
+  color: red;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.nomatch-style {
+  margin-top: 15rem;
+}
+.nomatch-style h1 {
+  font-size: 6rem;
+}
+.nomatch-style h2 {
+  font-size: 5rem;
+}
