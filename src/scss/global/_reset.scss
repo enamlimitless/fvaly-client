@@ -8,3 +8,7 @@ body {
 ul {
   margin: 0;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
