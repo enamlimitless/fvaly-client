@@ -5,4 +5,4 @@ const instance = axios.create({
   timeout: 15000,
 });
 
-instance.get('/product');
+instance.get('/product').then((response) => response.data.data);
