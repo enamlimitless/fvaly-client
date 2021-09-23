@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
   return (
@@ -11,8 +12,10 @@ const Products = () => {
         />
         <Card.Body>
           <Card.Title>
-            {' '}
-            Kovix SS Acid Proof Bike Disk Lock for Motorbike - Lime -{' '}
+            <Link to="">
+              {' '}
+              Kovix SS Acid Proof Bike Disk Lock for Motorbike - Lime -{' '}
+            </Link>
           </Card.Title>
           <p>$ 200</p>
         </Card.Body>

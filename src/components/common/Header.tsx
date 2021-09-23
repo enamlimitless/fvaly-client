@@ -97,6 +97,7 @@ const Header = () => {
             <Nav.Link href="/">Top-up</Nav.Link>
             <Nav.Link href="/">Express</Nav.Link>
             <Nav.Link href="/">T10</Nav.Link>
+            <Nav.Link href="/">Help</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
